@@ -1,4 +1,29 @@
 *{
   background-color: black;
-  color: aqua;
+
+}
+
+.navbar{
+  width: 100%;
+  height: 10vh;
+  padding: 10px;
+  background-color: gray;
+  border: 2px solid white;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  background-color: rgba(7, 199, 199, 0.651);
+  color: black;
+  padding: 25px;
+  border: 2px solid darkcyan;
 }

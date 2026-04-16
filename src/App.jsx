@@ -1,8 +1,14 @@
+import Card from "./components/Card"
+import Navbar from "./components/Navbar"
+
 function App() {
-  return <>
-  <h1>Hello fellas</h1>
-  <h2>learning react js</h2>
+  return (<>
+    <Navbar/>
+    <Card/>
+    <Card/>
+    <Card/>
   </>
+  )
 }
 
 export default App
