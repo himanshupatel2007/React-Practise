@@ -86,7 +86,7 @@ const stateData = [
   {
     "state": "Haryana",
     "capital": "Chandigarh",
-    "image": "https://source.unsplash.com/featured/?haryana",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3rucNj4-jEuwioLQy6JYxNbMpiL0LzdlPKw&s",
     "about": {
       "city": "Largest City: Faridabad",
       "population": "Population: ~29 million",
@@ -98,7 +98,7 @@ const stateData = [
   {
     "state": "Himachal Pradesh",
     "capital": "Shimla",
-    "image": "https://source.unsplash.com/featured/?himachal",
+    "image": "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/11/06105321/Feature-11-1600x900.jpg",
     "about": {
       "city": "Largest City: Shimla",
       "population": "Population: ~7 million",
@@ -110,7 +110,7 @@ const stateData = [
   {
     "state": "Jharkhand",
     "capital": "Ranchi",
-    "image": "https://source.unsplash.com/featured/?jharkhand",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNfJdPteRH98DlwxaRzqrOR_1lZfHVD4bRYw&s",
     "about": {
       "city": "Largest City: Jamshedpur",
       "population": "Population: ~40 million",
@@ -122,7 +122,7 @@ const stateData = [
   {
     "state": "Karnataka",
     "capital": "Bengaluru",
-    "image": "https://source.unsplash.com/featured/?bangalore",
+    "image": "https://content.skyscnr.com/m/6f0d202012198702/original/GettyImages-506104167.jpg?resize=1224%3Aauto",
     "about": {
       "city": "Largest City: Bengaluru",
       "population": "Population: ~70 million",
@@ -134,7 +134,7 @@ const stateData = [
   {
     "state": "Kerala",
     "capital": "Thiruvananthapuram",
-    "image": "https://source.unsplash.com/featured/?kerala",
+    "image": "https://www.cholantours.com/blog/wp-content/uploads/2025/11/Best-Places-To-Visit-In-Kerala-For-World-Travellers.webp",
     "about": {
       "city": "Largest City: Kochi",
       "population": "Population: ~35 million",
@@ -146,7 +146,7 @@ const stateData = [
   {
     "state": "Madhya Pradesh",
     "capital": "Bhopal",
-    "image": "https://source.unsplash.com/featured/?madhya-pradesh",
+    "image": "https://www.i4utravels.com/wp-content/uploads/2021/03/gwalior.jpeg",
     "about": {
       "city": "Largest City: Indore",
       "population": "Population: ~85 million",
@@ -158,7 +158,7 @@ const stateData = [
   {
     "state": "Maharashtra",
     "capital": "Mumbai",
-    "image": "https://source.unsplash.com/featured/?mumbai",
+    "image": "https://s7ap1.scene7.com/is/image/incredibleindia/1-pratapgarh-fort-mahabaleshwar-maharashtra-2-city-hero?qlt=82&ts=1726668937680",
     "about": {
       "city": "Largest City: Mumbai",
       "population": "Population: ~125 million",
@@ -170,7 +170,7 @@ const stateData = [
   {
     "state": "Manipur",
     "capital": "Imphal",
-    "image": "https://source.unsplash.com/featured/?manipur",
+    "image": "https://travelfromindia.com/assets/uploads/news-115.jpg",
     "about": {
       "city": "Largest City: Imphal",
       "population": "Population: ~3 million",
@@ -182,7 +182,7 @@ const stateData = [
   {
     "state": "Meghalaya",
     "capital": "Shillong",
-    "image": "https://source.unsplash.com/featured/?meghalaya",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGfVFrSIa5S0mlIxwVwVVOQUrF3pX55G2U2Q&s",
     "about": {
       "city": "Largest City: Shillong",
       "population": "Population: ~3.5 million",
@@ -194,7 +194,7 @@ const stateData = [
   {
     "state": "Mizoram",
     "capital": "Aizawl",
-    "image": "https://source.unsplash.com/featured/?mizoram",
+    "image": "https://static.toiimg.com/photo/msid-84244923,width-96,height-65.cms",
     "about": {
       "city": "Largest City: Aizawl",
       "population": "Population: ~1.2 million",
@@ -206,7 +206,7 @@ const stateData = [
   {
     "state": "Nagaland",
     "capital": "Kohima",
-    "image": "https://source.unsplash.com/featured/?nagaland",
+    "image": "https://tripandtales.com/wp-content/uploads/2025/06/Hills-of-Nagaland.jpg",
     "about": {
       "city": "Largest City: Dimapur",
       "population": "Population: ~2.2 million",
@@ -218,7 +218,7 @@ const stateData = [
   {
     "state": "Odisha",
     "capital": "Bhubaneswar",
-    "image": "https://source.unsplash.com/featured/?odisha",
+    "image": "https://s7ap1.scene7.com/is/image/incredibleindia/1-lingaraj-temple-bhubaneshwar-odisha-city-hero?qlt=82&ts=1742167192930",
     "about": {
       "city": "Largest City: Bhubaneswar",
       "population": "Population: ~46 million",
@@ -230,7 +230,7 @@ const stateData = [
   {
     "state": "Punjab",
     "capital": "Chandigarh",
-    "image": "https://source.unsplash.com/featured/?punjab",
+    "image": "https://cdn.britannica.com/53/176353-050-5B854179/Harmandir-Sahib-Amritsar-Punjab-India.jpg",
     "about": {
       "city": "Largest City: Ludhiana",
       "population": "Population: ~30 million",
@@ -242,7 +242,7 @@ const stateData = [
   {
     "state": "Rajasthan",
     "capital": "Jaipur",
-    "image": "https://source.unsplash.com/featured/?rajasthan",
+    "image": "https://s7ap1.scene7.com/is/image/incredibleindia/2-mehrangarh-fort-jodhpur-rajasthan-city-hero?qlt=82&ts=1726660925514",
     "about": {
       "city": "Largest City: Jaipur",
       "population": "Population: ~82 million",
@@ -254,7 +254,7 @@ const stateData = [
   {
     "state": "Sikkim",
     "capital": "Gangtok",
-    "image": "https://source.unsplash.com/featured/?sikkim",
+    "image": "https://nomadicweekends.com/blog/wp-content/uploads/2019/03/Lachung-City-In-between-the-Mountain-Ranges.jpg",
     "about": {
       "city": "Largest City: Gangtok",
       "population": "Population: ~0.7 million",
@@ -266,7 +266,7 @@ const stateData = [
   {
     "state": "Tamil Nadu",
     "capital": "Chennai",
-    "image": "https://source.unsplash.com/featured/?chennai",
+    "image": "https://s7ap1.scene7.com/is/image/incredibleindia/1-rameswaram-temple-rameswaram-tamilnadu-hero-1?qlt=82&ts=1727162277643",
     "about": {
       "city": "Largest City: Chennai",
       "population": "Population: ~78 million",
@@ -278,7 +278,7 @@ const stateData = [
   {
     "state": "Telangana",
     "capital": "Hyderabad",
-    "image": "https://source.unsplash.com/featured/?hyderabad",
+    "image": "https://s7ap1.scene7.com/is/image/incredibleindia/2-charminar_hyderabad_telangana-1-city-hero?qlt=82&ts=1742190636845",
     "about": {
       "city": "Largest City: Hyderabad",
       "population": "Population: ~40 million",
@@ -290,7 +290,7 @@ const stateData = [
   {
     "state": "Tripura",
     "capital": "Agartala",
-    "image": "https://source.unsplash.com/featured/?tripura",
+    "image": "https://www.tripuratime24.com/wp-content/uploads/2025/12/Agartala-city-skyline-showing-government-buildings-in-the-capital-of-Tripura-1.jpg",
     "about": {
       "city": "Largest City: Agartala",
       "population": "Population: ~4 million",
@@ -302,7 +302,7 @@ const stateData = [
   {
     "state": "Uttar Pradesh",
     "capital": "Lucknow",
-    "image": "https://source.unsplash.com/featured/?uttar-pradesh",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3X3ZYRyFlaHNhI0i9AhziqwWxDvR7OfsdZA&s",
     "about": {
       "city": "Largest City: Kanpur",
       "population": "Population: ~240 million",
@@ -314,7 +314,7 @@ const stateData = [
   {
     "state": "Uttarakhand",
     "capital": "Dehradun",
-    "image": "https://source.unsplash.com/featured/?uttarakhand",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNMJLj0-3zKEEpbnO04YWDdOWMCpXc7MrBlA&s",
     "about": {
       "city": "Largest City: Dehradun",
       "population": "Population: ~11 million",
@@ -326,7 +326,7 @@ const stateData = [
   {
     "state": "West Bengal",
     "capital": "Kolkata",
-    "image": "https://source.unsplash.com/featured/?kolkata",
+    "image": "https://s7ap1.scene7.com/is/image/incredibleindia/1-howrah-bridge-kolkata-west-bengal-city-hero?qlt=82&ts=1742154912631",
     "about": {
       "city": "Largest City: Kolkata",
       "population": "Population: ~100 million",
