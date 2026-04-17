@@ -1,20 +1,18 @@
 import Card from "./components/Card"
-import stateData from "./components/data"
+import Header from "./components/Header"
+import LeftContainer from "./components/LeftContainer"
+import RightContainer from "./components/RightContainer"
+
 function App() {
 
-  return (
-    <div className="container">
-    {
-      stateData.map(data =>{
-      return <Card 
-      image = {data.image}
-      state = {data.state}
-      capital = {data.capital}
-      about= {data.about}
-      />
-    })
-    }
+  return (<>
+    <Header/>
+    <div className="costainer">
+      <LeftContainer/>
+      <RightContainer/>
     </div>
+  </>
+
   )
 }
 

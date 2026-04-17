@@ -1,4 +1,4 @@
-const stateData = [
+export const stateData = [
   {
     "state": "Andhra Pradesh",
     "capital": "Amaravati",
@@ -336,5 +336,35 @@ const stateData = [
     }
   }
 ]
-
-export default stateData;
+export const userData = [
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "image": "https://picsum.photos/300/600?random=1",
+    "about": "Aarav is a software developer passionate about building modern web applications using React and Node.js."
+  },
+  {
+    "id": 2,
+    "name": "Priya Verma",
+    "image": "https://picsum.photos/300/600?random=2",
+    "about": "Priya is a UI/UX designer who loves creating clean and user-friendly interfaces."
+  },
+  {
+    "id": 3,
+    "name": "Rohan Gupta",
+    "image": "https://picsum.photos/300/600?random=3",
+    "about": "Rohan is a backend developer skilled in databases, APIs, and scalable system design."
+  },
+  {
+    "id": 4,
+    "name": "Sneha Patel",
+    "image": "https://picsum.photos/300/600?random=4",
+    "about": "Sneha is a frontend developer specializing in responsive design and performance optimization."
+  },
+  {
+    "id": 5,
+    "name": "Karan Mehta",
+    "image": "https://picsum.photos/300/600?random=5",
+    "about": "Karan is a full-stack developer who enjoys working with MERN stack and building real-world projects."
+  }
+]

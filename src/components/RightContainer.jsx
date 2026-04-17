@@ -1,0 +1,22 @@
+import React from 'react'
+import {userData} from "./data.js"
+import Blocks from './Blocks.jsx'
+const RightContainer = () => {
+  return (
+    <div className='rightContainer'>
+      {
+        userData.map(user=>{
+            return(
+                <Blocks 
+                number={user.id}
+                imageUrl={user.image}
+                text={user.about}
+                name={user.name}/>
+            )
+            })
+        }
+    </div>
+  )
+}
+
+export default RightContainer
