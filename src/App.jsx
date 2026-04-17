@@ -1,13 +1,20 @@
 import Card from "./components/Card"
-import Navbar from "./components/Navbar"
-
+import stateData from "./components/data"
 function App() {
-  return (<>
-    <Navbar/>
-    <Card name = "himanshu patel" age= {18} about = "student"/>
-    <Card name = "harshVardhan" age ={21} about = "web developer"/>
-    <Card name = " harsh monga" age = {21} about = "drummer"/>
-  </>
+
+  return (
+    <div className="container">
+    {
+      stateData.map(data =>{
+      return <Card 
+      image = {data.image}
+      state = {data.state}
+      capital = {data.capital}
+      about= {data.about}
+      />
+    })
+    }
+    </div>
   )
 }
 

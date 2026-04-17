@@ -1,14 +1,24 @@
-import React from 'react'
+import React from "react";
 
-const Card = (data) => {
-    return (
-        <div className='card'>
-            <h1>{data.name} {data.age}</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus excepturi a nam, consequuntur sint consequatur minus maiores similique? Magnam repudiandae laudantium corrupti, illum corporis praesentium assumenda blanditiis sint reiciendis facilis?</p>
-            <h3>About</h3>
-            <p>{data.about}</p>
-        </div>
-    )
-}
+const Card = ({image,state,capital,about}) => {
+  return (
+    <div className="card" style={{ "--bg-image": `url(${image})` }}>
+         <h1>{state}</h1>
+      <h3>{capital}</h3>
+      <ul>
+        <li>{about.city}</li>
+        <li>{about.population}</li>
+        <li>{about.knownFor}</li>
+        <li>{about.language}</li>
+      </ul>
+      <div className="about">
+        <p>
+          {about.para}
+        </p>
+      </div>
+     </div>
+    
+  );
+};
 
-export default Card
+export default Card;
