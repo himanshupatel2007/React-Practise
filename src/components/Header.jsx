@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const Header = () => {
   return (
-    <div>
-      <div>TARGET AUDIENCE</div>
-<div>DIGITAL BANKING PLATFORM</div>
+    <div className="w-full flex justify-between h-auto ">
+      <div className="py-2 px-4 rounded-full bg-black text-white my-2.5 mx-5">TARGET AUDIENCE</div>
+      <div className="py-2 px-4 rounded-full bg-gray-800 text-white my-2.5 mx-6">DIGITAL BANKING PLATFORM</div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

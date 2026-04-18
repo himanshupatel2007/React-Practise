@@ -7,7 +7,7 @@ function App() {
 
   return (<>
     <Header/>
-    <div className="costainer">
+    <div className="flex ">
       <LeftContainer/>
       <RightContainer/>
     </div>

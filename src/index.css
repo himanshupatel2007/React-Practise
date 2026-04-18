@@ -1,16 +1,6 @@
 @import "tailwindcss";
 
-
-body {
-  background-color: black;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
+/* state cards CSS*/
 .card {
   position: relative;
   color: white;
@@ -41,7 +31,6 @@ body {
 }
 .card ul {
   list-style: none;
-  
 }
 .card .about {
   border-width: 1px 1px 1px 1px;
