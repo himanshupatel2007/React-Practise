@@ -9,6 +9,13 @@
   display: none; /* Chrome/Safari */
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /* state cards CSS*/
 .card {
   position: relative;
