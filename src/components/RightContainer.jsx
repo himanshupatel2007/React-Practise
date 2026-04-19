@@ -4,7 +4,7 @@ import Blocks from "./Blocks.jsx";
 
 const RightContainer = () => {
   return (
-    <div className="flex overflow-hidden touch-pan-y p-5 bg-amber-300 h-175 ">
+    <div className="flex flex-nowrap overflow-y-hidden overflow-x-auto touch-pan-x h-full flex-1 shrink-0 hide-scrollbar  ">
       {userData.map((user) => {
         return (
           <Blocks
