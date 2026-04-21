@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import 
-const InputNotes = () => {
+
+const InputNotes = ({onAdd}) => {
   const [title, setTitle] = useState("");
   const [notes, setNotes] = useState("");
   const inputTitle = (key) => {
@@ -9,6 +9,14 @@ const InputNotes = () => {
   const inputNotes = (key) => {
     setNotes(key.target.value);
   };
+
+  const handleClick = (e)=>{
+    e.preventDefault();
+    if(!title || !notes) return;
+    onAdd({title,notes});
+    setTitle("");
+    setNotes("");
+  }
   return (
     <div>
       <form action="">
@@ -27,7 +35,7 @@ const InputNotes = () => {
           placeholder="Enter notes"
         />
         <button
-          onClick={addNotes}
+          onClick={handleClick}
           className="py-2 px-4 bg-gray-600 text-black border-black border-2"
         >
           Add+
