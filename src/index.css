@@ -1,17 +1,14 @@
 @import "tailwindcss";
 
-.hide-scrollbar {
-  -ms-overflow-style: none; /* IE/Edge */
-  scrollbar-width: none; /* Firefox */
-}
 
-.hide-scrollbar::-webkit-scrollbar {
-  display: none; /* Chrome/Safari */
+h1{
+  font-size: 100px;
+  white-space : no-wrap;
+  text-decoration: underline;
+  color: black;
 }
-
-body{
+.heading{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }

@@ -1,24 +1,23 @@
-import { useState } from "react";
-import InputNotes from "./components/InputNotes";
-import Note from "./components/Note";
+import React from "react";
+import Navbar from "./components/Navbar";
+import { Routes,Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import Services from "./Pages/Services";
+import Contact from "./Pages/Contact";
+import Profile from "./Pages/Profile";
 
-export default function App() {
-  const [data, setData] = useState([]);
-  const addNotes = (inputtext) => {
-    const newtext = [...data, inputtext];
-    setData(newtext);
-  };
-  const deleteNote = (id)=>{
-    setData(data.filter((_,index)=> index!=id))
-  }
+const App = () => {
   return (
-    <div className="w-screen flex flex-col">
-      <InputNotes onAdd={addNotes} />
-      <div className="flex flex-wrap">
-        {data.map((elem ,index) => {
-          return <Note key={index} id={index} deletefn={deleteNote}  title={elem.title} notes={elem.notes} />;
-        })}
-      </div>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/service" element={<Services/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/profile" element={<Profile/>} />
+      </Routes>
+    </>
   );
-}
+};
+
+export default App;
