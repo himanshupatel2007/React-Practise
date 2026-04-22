@@ -18,8 +18,8 @@ const InputNotes = ({onAdd}) => {
     setNotes("");
   }
   return (
-    <div>
-      <form action="">
+    <div className="w-max">
+      <form className="flex gap-5">
         <input
           onChange={inputTitle}
           value={title}
